@@ -15,9 +15,9 @@ M.dark = {
   orange      = '#cb4b16',
   yellow      = '#b58900',
   green       = '#859900',
-  aqua        = '#2aa198',
+  cyan        = '#2aa198',
   blue        = '#268bd2',
-  purple      = '#d33682',
+  magenta     = '#d33682',
   violet      = '#6c71c4',
   bg_red      = '#da0000',
   bg_green    = '#859000',
@@ -31,22 +31,22 @@ M.dark = {
 
 -- @class Light Color Palette
 M.light = {
-  bg0         = '#fdf6e3',
-  bg1         = '#eee8d5',
+  bg0         = '#fdf6e3', -- base3, solarized light background
+  bg1         = '#eee8d5', -- base2, background highlights (eg. line marker)
   bg2         = '#fdf6e3',
-  fg0         = '#002b36',
-  fg1         = '#839496',
-  fg2         = '#657b83',
-  base1       = '#93a1a1',
-  base2       = '#002b36',
-  base3       = '#073642',
+  fg0         = '#657b83', -- base00, regular text
+  fg1         = '#93a1a1', -- base1, comments/side line numbers
+  fg2         = '#93a1a1', -- base1, comments
+  base1       = '#93a1a1', -- visual mode highlights
+  base2       = '#586e75', -- side current line number highlight
+  base3       = '#ffffff', -- not used
   red         = '#dc322f',
   orange      = '#cb4b16',
   yellow      = '#b58900',
   green       = '#859900',
-  aqua        = '#2aa198',
+  cyan        = '#2aa198',
   blue        = '#268bd2',
-  purple      = '#d33682',
+  magenta     = '#d33682',
   violet      = '#6c71c4',
   bg_red      = '#da0000',
   bg_green    = '#859000',
@@ -55,7 +55,8 @@ M.light = {
   diff_change = '#ffffca',
   diff_delete = '#ffcaca',
   diff_text   = '#e8e8b3',
-  none        = "NONE"
+  none        = "NONE",
+  white       = '#ffffff'
 }
 
 function M.setup(opts)
